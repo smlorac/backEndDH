@@ -4,6 +4,7 @@ public class Funcionario extends Vendedor{
 
     private int tempoDeCasa;
     private int quantidadeAfiliados;
+    //ArrayList<Vendedor> afiliados = new ArrayList<>
     private int quantidadeVendas;
 
     public Funcionario(String nome, int tempoDeCasa) {
@@ -24,6 +25,7 @@ public class Funcionario extends Vendedor{
     }
 
     public void vender(int quantidadeVendas) {
+        //poderia fazer com this.vendas += quantidadeVendas e ter feito na classe abstrata
         this.quantidadeVendas = quantidadeVendas;
     }
 
@@ -33,12 +35,16 @@ public class Funcionario extends Vendedor{
     }
 
     @Override
+    //poderia ter feito na classe abstrata
     public void recategorizar(int pontos) {
         if (calcularPontos() >= 20 && calcularPontos() <= 30){
+            //< 31
             setCategoria("aprendiz");
         } else if (calcularPontos() > 30 && calcularPontos() <= 40){
+            //<41
             setCategoria("bom");
         } else if (calcularPontos() > 40){
+            //apenas else
             setCategoria("mestre");
         }
     }

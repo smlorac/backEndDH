@@ -2,6 +2,7 @@ package aula03;
 
 public abstract class Vendedor {
 
+    //poderia ter utilizado protected
     private String nome;
     private int pontos;
     private String categoria;
