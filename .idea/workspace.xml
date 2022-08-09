@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c984fe29-fe31-435f-b1f1-f94ce2e6a724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/PessoaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/ServicoVacinar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/ServicoVacinarProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/Vacinar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/Baixar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/ServicoBaixar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/ServicoBaixarProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/UsuarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/aula/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/aula/FilmeNaoHabilitadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/aula/GradeDeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/aula/GradeDeFilmesProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/aula/IGradeDeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/aula/Ip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/aula/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/mesa/ISerie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/mesa/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/mesa/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/mesa/SerieNaoHabilitadaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/mesa/SerieProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_flyweightPattern/aula/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_flyweightPattern/aula/factory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_flyweightPattern/aula/model/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_flyweightPattern/mesa/Arvore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_flyweightPattern/mesa/ArvoreFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_flyweightPattern/mesa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorGerencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorGerencia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorTecnico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorTecnico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/ProcessaMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/ProcessaMail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/ProcessaArtigo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/ProcessaArtigo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/ProcessaArtigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/ProcessaArtigo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.UsuarioTest.usuarioPremium">
-    <configuration name="ProcessaArtigo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula04_chainOfRespons.mesa.ProcessaArtigo" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="aula06" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.aula07_flyweightPattern.mesa.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula07_flyweightPattern.aula.Main" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula04_chainOfRespons.mesa.*" />
+          <option name="PATTERN" value="aula07_flyweightPattern.aula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,50 +79,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTest.testVacinar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula06.mesa.Principal" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula05_proxyPattern.aulaSinc.*" />
+          <option name="PATTERN" value="aula06.mesa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aula05_proxyPattern.aulaSinc" />
-      <option name="MAIN_CLASS_NAME" value="aula05_proxyPattern.aulaSinc.PessoaTest" />
-      <option name="METHOD_NAME" value="testVacinar" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTest.testVacinarFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="aula06.aula.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula06.aula.Principal" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula05_proxyPattern.aulaSinc.*" />
+          <option name="PATTERN" value="aula06.aula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aula05_proxyPattern.aulaSinc" />
-      <option name="MAIN_CLASS_NAME" value="aula05_proxyPattern.aulaSinc.PessoaTest" />
-      <option name="METHOD_NAME" value="testVacinarFail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuarioTest.usuarioFree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="aula07_flyweightPattern.mesa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula07_flyweightPattern.mesa.Main" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula05_proxyPattern.mesa.*" />
+          <option name="PATTERN" value="aula07_flyweightPattern.mesa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aula05_proxyPattern.mesa" />
-      <option name="MAIN_CLASS_NAME" value="aula05_proxyPattern.mesa.UsuarioTest" />
-      <option name="METHOD_NAME" value="usuarioFree" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aula07_flyweightPattern.mesa.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.aula06.aula.Principal" />
+        <item itemvalue="Application.Principal" />
         <item itemvalue="JUnit.UsuarioTest.usuarioPremium" />
-        <item itemvalue="JUnit.UsuarioTest.usuarioFree" />
-        <item itemvalue="JUnit.PessoaTest.testVacinarFail" />
-        <item itemvalue="JUnit.PessoaTest.testVacinar" />
-        <item itemvalue="Application.ProcessaArtigo" />
       </list>
     </recent_temporary>
   </component>
