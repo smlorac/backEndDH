@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c984fe29-fe31-435f-b1f1-f94ce2e6a724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/model/Cartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/model/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/IFacadeDesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/ApiCartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/ApiProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/ApiQuantidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/FacadeDesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/aula/test/FacadeDescontoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/model/Viagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/IFacadeTurismo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/impl/ApiHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/impl/ApiVoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/impl/FacadeTurismo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_log4j_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula09/aula/FlyweightFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula09/aula/FlyweightTrianguloFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula09/aula/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula09/mesa/Roupa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula09/mesa/RoupaFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula09/mesa/RoupaFlyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula10_logger/aula/Leao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula10_logger/aula/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula10_logger/aula/Tigre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula10_logger/mesa/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula10_logger/mesa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/mesa/ArvoreFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/mesa/ArvoreFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,30 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/mscar/OneDrive/Documentos/apache-log4j-1.2.17",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="aula06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.aula08_facadePattern.mesa.Main">
+  <component name="RunManager" selected="Application.aula10_logger.mesa.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula07_flyweightPattern.aula.Main" />
+      <option name="MAIN_CLASS_NAME" value="aula10_logger.aula.Main" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula07_flyweightPattern.aula.*" />
+          <option name="PATTERN" value="aula10_logger.aula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula07_flyweightPattern.mesa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula07_flyweightPattern.mesa.Main" />
+    <configuration name="aula10_logger.mesa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula10_logger.mesa.Main" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula07_flyweightPattern.mesa.*" />
+          <option name="PATTERN" value="aula10_logger.mesa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,54 +93,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula08_facadePattern.aula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula08_facadePattern.aula.Main" />
+    <configuration name="FlyweightFactoryTest.getTrianguloComTamanho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula08_facadePattern.aula.model.*" />
+          <option name="PATTERN" value="aula09.aula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="aula09.aula" />
+      <option name="MAIN_CLASS_NAME" value="aula09.aula.FlyweightFactoryTest" />
+      <option name="METHOD_NAME" value="getTrianguloComTamanho" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula08_facadePattern.mesa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula08_facadePattern.mesa.Main" />
+    <configuration name="RoupaFactoryTest.criandoRoupa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula08_facadePattern.mesa.*" />
+          <option name="PATTERN" value="aula09.mesa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="aula09.mesa" />
+      <option name="MAIN_CLASS_NAME" value="aula09.mesa.RoupaFactoryTest" />
+      <option name="METHOD_NAME" value="criandoRoupa" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FacadeDescontoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoupaFactoryTest.tamanhoListas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula08_facadePattern.aula.model.*" />
+          <option name="PATTERN" value="aula09.mesa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aula08_facadePattern.aula.test" />
-      <option name="MAIN_CLASS_NAME" value="aula08_facadePattern.aula.test.FacadeDescontoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="aula09.mesa" />
+      <option name="MAIN_CLASS_NAME" value="aula09.mesa.RoupaFactoryTest" />
+      <option name="METHOD_NAME" value="tamanhoListas" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.aula08_facadePattern.mesa.Main" />
-        <item itemvalue="Application.aula08_facadePattern.aula.Main" />
-        <item itemvalue="JUnit.FacadeDescontoTest" />
-        <item itemvalue="Application.aula07_flyweightPattern.mesa.Main" />
+        <item itemvalue="Application.aula10_logger.mesa.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RoupaFactoryTest.tamanhoListas" />
+        <item itemvalue="JUnit.RoupaFactoryTest.criandoRoupa" />
+        <item itemvalue="JUnit.FlyweightFactoryTest.getTrianguloComTamanho" />
       </list>
     </recent_temporary>
   </component>
