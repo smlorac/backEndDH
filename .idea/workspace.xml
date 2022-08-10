@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c984fe29-fe31-435f-b1f1-f94ce2e6a724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_log4j_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula09/aula/FlyweightFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula09/aula/FlyweightTrianguloFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula09/aula/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula09/mesa/Roupa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula09/mesa/RoupaFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula09/mesa/RoupaFlyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula10_logger/aula/Leao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula10_logger/aula/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula10_logger/aula/Tigre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula10_logger/mesa/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula10_logger/mesa/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c984fe29-fe31-435f-b1f1-f94ce2e6a724" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
