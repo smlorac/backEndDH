@@ -5,14 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c984fe29-fe31-435f-b1f1-f94ce2e6a724" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/contatos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidaCachorros.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/aula20_serializacao/aula/Cachorro.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/aula20_serializacao/aula/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/aula20_serializacao/mesa/Contato.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/aula20_serializacao/mesa/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/dao/IDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/dao/impl/DentistaDaoH2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/dao/impl/EnderecoDaoH2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/dao/impl/PacienteDaoH2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/model/Dentista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/model/Endereco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/model/Paciente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/service/DentistaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/service/EnderecoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/service/PacienteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula20_serializacao/aula/Cachorro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula20_serializacao/aula/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula20_serializacao/mesa/Contato.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aula20_serializacao/mesa/Principal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/service/PacienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aula18_maven/aula/dao/ConfiguracaoJDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aula18_maven/aula/dao/ConfiguracaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aula18_maven/mesa/dao/config/ConfiguracaoJDBC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/aula18_maven/aula/dao/IDAO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/aula18_maven/aula/dao/impl/MedicamentoDAOH2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/aula18_maven/aula/model/Medicamento.class" beforeDir="false" />
@@ -80,11 +96,11 @@
   </component>
   <component name="RunManager" selected="Application.Principal">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula20_serializacao.aula.Main" />
+      <option name="MAIN_CLASS_NAME" value="aula19_serializacao.aula.Main" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula20_serializacao.aula.*" />
+          <option name="PATTERN" value="aula19_serializacao.aula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula20_serializacao.mesa.Principal" />
+      <option name="MAIN_CLASS_NAME" value="aula19_serializacao.mesa.Principal" />
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula20_serializacao.mesa.*" />
+          <option name="PATTERN" value="aula19_serializacao.mesa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

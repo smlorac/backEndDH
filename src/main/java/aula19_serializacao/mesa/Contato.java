@@ -1,4 +1,4 @@
-package aula20_serializacao.mesa;
+package aula19_serializacao.mesa;
 
 import java.io.Serializable;
 

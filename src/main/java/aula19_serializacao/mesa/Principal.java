@@ -1,6 +1,4 @@
-package aula20_serializacao.mesa;
-
-import aula13_consultasETransacoes.aula.Conta;
+package aula19_serializacao.mesa;
 
 import java.io.*;
 import java.util.ArrayList;

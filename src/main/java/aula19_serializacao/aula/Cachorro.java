@@ -1,4 +1,4 @@
-package aula20_serializacao.aula;
+package aula19_serializacao.aula;
 
 import java.io.Serializable;
 
