@@ -9,7 +9,7 @@ public class PacienteService {
     private IDao<Paciente> pacienteIDao;
 
     public PacienteService(PacienteDaoH2 pacienteIDao) {
-        this.pacienteIDao = pacienteIDao;
+        //this.pacienteIDao = pacienteIDao;
     }
 
     public Paciente salvar(Paciente paciente){
