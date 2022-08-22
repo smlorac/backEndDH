@@ -1,12 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c984fe29-fe31-435f-b1f1-f94ce2e6a724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aula12/aula/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula12/mesa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_2_1_214.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createAula18.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createProva.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_aula14.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_aula15.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula13_consultasETransacoes/aula/ConnectionJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula13_consultasETransacoes/aula/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula13_consultasETransacoes/aula/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula13_consultasETransacoes/mesa/Conexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula13_consultasETransacoes/mesa/Dentista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula13_consultasETransacoes/mesa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula14_padraoDAO/aula/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula14_padraoDAO/aula/dao/IDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula14_padraoDAO/aula/dao/impl/MedicamentoDAOH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula14_padraoDAO/aula/model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula14_padraoDAO/aula/service/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula14_padraoDAO/aula/test/MedicamentoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/dao/config/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/dao/impl/EnderecoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/dao/impl/PacienteDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/service/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/service/PacienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula15/test/ClinicaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/dao/config/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/dao/impl/DentistaDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/dao/impl/EnderecoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/dao/impl/PacienteDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/model/Dentista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/service/DentistaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/service/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula18_maven/mesa/service/PacienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avaliacao_parcial/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avaliacao_parcial/dao/config/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avaliacao_parcial/dao/impl/FilialDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avaliacao_parcial/model/Filial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avaliacao_parcial/service/FilialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/avaliacao_parcial/test/FilialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aula18_maven/test/mesa/ClinicaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codigos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codigos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula11_acessoBancoDados/aula/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codigos/aula11_acessoBancoDados/aula/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula01/Circulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula01/Figura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula01/FiguraTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula01/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula01/PessoaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula01/Quadrado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula02_templateMethod/Contratado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula02_templateMethod/Efetivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula02_templateMethod/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula02_templateMethod/FuncionarioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula03/Afiliado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula03/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula03/Vendedor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula03/VendedorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/CheckMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/Gerenciador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorComercial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorGerencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorSpam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/GerenciadorTecnico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/Mail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/ProcessaMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/Artigo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/CheckQuality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/ManagerEmbalagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/ManagerLote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/ManagerPeso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula04_chainOfRespons/mesa/ProcessaArtigo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/aulaSinc/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/aulaSinc/PessoaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/aulaSinc/ServicoVacinar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/aulaSinc/ServicoVacinarProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/aulaSinc/Vacinar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/mesa/Baixar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/mesa/ServicoBaixar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/mesa/ServicoBaixarProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/mesa/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula05_proxyPattern/mesa/UsuarioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/aula/Filme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/aula/FilmeNaoHabilitadoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/aula/GradeDeFilmes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/aula/GradeDeFilmesProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/aula/IGradeDeFilmes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/aula/Ip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/aula/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/mesa/ISerie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/mesa/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/mesa/Serie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/mesa/SerieNaoHabilitadaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula06/mesa/SerieProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/aula/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/aula/factory/ComputerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/aula/model/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/mesa/Arvore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/mesa/ArvoreFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula07_flyweightPattern/mesa/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/model/Cartao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/model/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/service/IFacadeDesconto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/service/impl/ApiCartao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/service/impl/ApiProduto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/service/impl/ApiQuantidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/service/impl/FacadeDesconto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/aula/test/FacadeDescontoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/mesa/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/mesa/model/Viagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/mesa/service/IFacadeTurismo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/mesa/service/impl/ApiHotel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/mesa/service/impl/ApiVoo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula08_facadePattern/mesa/service/impl/FacadeTurismo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula09/aula/FlyweightFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula09/aula/FlyweightTrianguloFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula09/aula/Triangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula09/mesa/Roupa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula09/mesa/RoupaFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula09/mesa/RoupaFlyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula10_logger/aula/Leao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula10_logger/aula/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula10_logger/aula/Tigre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula10_logger/mesa/Lista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula10_logger/mesa/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula11_acessoBancoDados/aula/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula11_acessoBancoDados/mesa/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula12/aula/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codigos/aula12/mesa/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/FiguraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/FiguraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/PessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/Quadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula02_templateMethod/Contratado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula02_templateMethod/Contratado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula02_templateMethod/Efetivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula02_templateMethod/Efetivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula02_templateMethod/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula02_templateMethod/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula02_templateMethod/FuncionarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula02_templateMethod/FuncionarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/Afiliado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula03/Afiliado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula03/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula03/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/VendedorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula03/VendedorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/CheckMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/CheckMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/Gerenciador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/Gerenciador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/GerenciadorComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/GerenciadorComercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/GerenciadorGerencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/GerenciadorGerencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/GerenciadorSpam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/GerenciadorSpam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/GerenciadorTecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/GerenciadorTecnico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/ProcessaMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/ProcessaMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/Artigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/mesa/Artigo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/CheckQuality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/mesa/CheckQuality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/mesa/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/ManagerEmbalagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/mesa/ManagerEmbalagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/ManagerLote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/mesa/ManagerLote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/ManagerPeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/mesa/ManagerPeso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04_chainOfRespons/mesa/ProcessaArtigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04_chainOfRespons/mesa/ProcessaArtigo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/aulaSinc/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/aulaSinc/PessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/ServicoVacinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/aulaSinc/ServicoVacinar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/ServicoVacinarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/aulaSinc/ServicoVacinarProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/aulaSinc/Vacinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/aulaSinc/Vacinar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/Baixar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/mesa/Baixar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/ServicoBaixar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/mesa/ServicoBaixar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/ServicoBaixarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/mesa/ServicoBaixarProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/mesa/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05_proxyPattern/mesa/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05_proxyPattern/mesa/UsuarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/aula/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/aula/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/aula/FilmeNaoHabilitadoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/aula/FilmeNaoHabilitadoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/aula/GradeDeFilmes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/aula/GradeDeFilmes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/aula/GradeDeFilmesProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/aula/GradeDeFilmesProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/aula/IGradeDeFilmes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/aula/IGradeDeFilmes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/aula/Ip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/aula/Ip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/aula/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/aula/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/mesa/ISerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/mesa/ISerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/mesa/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/mesa/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/mesa/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/mesa/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/mesa/SerieNaoHabilitadaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/mesa/SerieNaoHabilitadaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula06/mesa/SerieProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula06/mesa/SerieProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_flyweightPattern/aula/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula07_flyweightPattern/aula/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_flyweightPattern/aula/factory/ComputerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula07_flyweightPattern/aula/factory/ComputerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_flyweightPattern/aula/model/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula07_flyweightPattern/aula/model/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_flyweightPattern/mesa/Arvore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula07_flyweightPattern/mesa/Arvore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_flyweightPattern/mesa/ArvoreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula07_flyweightPattern/mesa/ArvoreFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_flyweightPattern/mesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula07_flyweightPattern/mesa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/model/Cartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/model/Cartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/IFacadeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/service/IFacadeDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/ApiCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/service/impl/ApiCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/ApiProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/service/impl/ApiProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/ApiQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/service/impl/ApiQuantidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/service/impl/FacadeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/service/impl/FacadeDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/aula/test/FacadeDescontoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/aula/test/FacadeDescontoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/mesa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/model/Viagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/mesa/model/Viagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/IFacadeTurismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/mesa/service/IFacadeTurismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/impl/ApiHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/mesa/service/impl/ApiHotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/impl/ApiVoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/mesa/service/impl/ApiVoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_facadePattern/mesa/service/impl/FacadeTurismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula08_facadePattern/mesa/service/impl/FacadeTurismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula09/aula/FlyweightFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula09/aula/FlyweightFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula09/aula/FlyweightTrianguloFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula09/aula/FlyweightTrianguloFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula09/aula/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula09/aula/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula09/mesa/Roupa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula09/mesa/Roupa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula09/mesa/RoupaFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula09/mesa/RoupaFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula09/mesa/RoupaFlyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula09/mesa/RoupaFlyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula10_logger/aula/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula10_logger/aula/Leao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula10_logger/aula/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula10_logger/aula/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula10_logger/aula/Tigre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula10_logger/aula/Tigre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula10_logger/mesa/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula10_logger/mesa/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula10_logger/mesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula10_logger/mesa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula11_acessoBancoDados/aula/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula11_acessoBancoDados/aula/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula11_acessoBancoDados/mesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula11_acessoBancoDados/mesa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula12/aula/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula12/aula/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula12/mesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula12/mesa/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,100 +267,126 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files (x86)/H2/bin/h2-2.1.214.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Notification.DisplayName-DoNotAsk-Download Shared Index": "Shared indexes available",
+    "Notification.DoNotAsk-Download Shared Index": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/mscar/OneDrive/Documentos/Back End I/codigos/src/main/java/aula18_maven/aula",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="aula15.model" />
       <recent name="aula06" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mscar\OneDrive\Documentos\Back End I\codigos\src\main\java\aula18_maven\aula" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mscar\OneDrive\Documentos\Back End I\codigos" />
+      <recent name="C:\Users\mscar\OneDrive\Documentos\Back End I\codigos\src" />
+      <recent name="C:\Users\mscar\OneDrive\Documentos\Back End I\codigos\src\aula14_padraoDAO\aula\scripts" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.aula12.mesa.Main">
-    <configuration name="aula10_logger.mesa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula10_logger.mesa.Main" />
+  <component name="RunManager" selected="JUnit.ClinicaTest.clinicasTest">
+    <configuration name="ClinicaTest.clinicasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula10_logger.mesa.*" />
+          <option name="PATTERN" value="aula15.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="aula15.test" />
+      <option name="MAIN_CLASS_NAME" value="aula15.test.ClinicaTest" />
+      <option name="METHOD_NAME" value="clinicasTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula11_acessoBancoDados.aula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula11_acessoBancoDados.aula.Main" />
+    <configuration name="ClinicaTest.salvarMedicamentoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula11_acessoBancoDados.aula.*" />
+          <option name="PATTERN" value="aula18_maven.test.mesa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="aula18_maven.test.mesa" />
+      <option name="MAIN_CLASS_NAME" value="aula18_maven.test.mesa.ClinicaTest" />
+      <option name="METHOD_NAME" value="salvarMedicamentoTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula11_acessoBancoDados.mesa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula11_acessoBancoDados.mesa.Main" />
+    <configuration name="FilialTest.criando5filiais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula11_acessoBancoDados.mesa.*" />
+          <option name="PATTERN" value="avaliacao_parcial.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="avaliacao_parcial.test" />
+      <option name="MAIN_CLASS_NAME" value="avaliacao_parcial.test.FilialTest" />
+      <option name="METHOD_NAME" value="criando5filiais" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula12.aula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula12.aula.Main" />
+    <configuration name="MedicamentoTest.salvarMedicamentoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula12.aula.*" />
+          <option name="PATTERN" value="aula18_maven.aula.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="aula18_maven.aula.test" />
+      <option name="MAIN_CLASS_NAME" value="aula18_maven.aula.test.MedicamentoTest" />
+      <option name="METHOD_NAME" value="salvarMedicamentoTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula12.mesa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula12.mesa.Main" />
+    <configuration name="MedicamentoTest.salvarMedicamentoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codigos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula12.mesa.*" />
+          <option name="PATTERN" value="aula14_padraoDAO.aula.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="aula14_padraoDAO.aula.test" />
+      <option name="MAIN_CLASS_NAME" value="aula14_padraoDAO.aula.test.MedicamentoTest" />
+      <option name="METHOD_NAME" value="salvarMedicamentoTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.aula12.mesa.Main" />
-        <item itemvalue="Application.aula12.aula.Main" />
-        <item itemvalue="Application.aula11_acessoBancoDados.mesa.Main" />
-        <item itemvalue="Application.aula11_acessoBancoDados.aula.Main" />
-        <item itemvalue="Application.aula10_logger.mesa.Main" />
+        <item itemvalue="JUnit.ClinicaTest.clinicasTest" />
+        <item itemvalue="JUnit.FilialTest.criando5filiais" />
+        <item itemvalue="JUnit.ClinicaTest.salvarMedicamentoTest" />
+        <item itemvalue="JUnit.MedicamentoTest.salvarMedicamentoTest (1)" />
+        <item itemvalue="JUnit.MedicamentoTest.salvarMedicamentoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +400,9 @@
       <updated>1659393340134</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
