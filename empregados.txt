@@ -1,0 +1,4 @@
+Carol;Silva;6661;5000.0
+Nico;Lima;6662;7520.2
+Maria;Jose;6663;1250.9
+Joao;Maria;6664;2500.0
